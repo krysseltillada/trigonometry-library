@@ -37,8 +37,18 @@ namespace tri {
         return degrees;
     }
 
-    int get_degree(int t_s) {
-        return t_s;
+    int get_degree(double t_s) {
+        std::ostringstream strs2;
+        strs2 << t_s;
+        std::string s1 = strs2.str();
+        auto i = 0u;
+        while(i != s1.size()) {
+            if(s1[i] == '.') {
+                return 0;
+            }
+            i++;
+        }
+        return atoi(s1.c_str());
     }
 
     int ref_angle(int r_a) {
