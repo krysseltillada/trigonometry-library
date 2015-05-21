@@ -9,7 +9,6 @@ namespace tri {
     const double PI = 3.14;
 
     double get_rad(double r) {
-
         std::ostringstream strs;
         strs << r;
         std::string s = strs.str();
