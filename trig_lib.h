@@ -50,7 +50,7 @@ namespace tri {
         return atoi(s1.c_str());
     }
 
-    int ref_angle(int r_a) {
+    int ref_angle(double r_a) {
         auto ref_angle_ = 0, excd_ref_angle_ = 0, temp_ref_angle_1 = 0;
 
         while(true) {
