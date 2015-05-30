@@ -79,7 +79,6 @@ namespace tri {
         }
         else {
             if(r_a >= -90) {
-            std::cout << "hit1: "<< std::endl;
            ref_angle_ = r_a  * - 1;
            return ref_angle_;
         }
