@@ -16,3 +16,9 @@ functions:
 3. ref_angle(double) -- > gets the reference angle of a degree or a radian
 4. rad_to_deg(double) -- > converts radian to degree
 5. deg_to_rad(double) -- > converts degree to radian
+6. tan_deg(double) -- > finds the missing value which is opposite
+7. sin_deg(double) -- > finds the missing value which is opposite
+8. cos_deg(double) -- > finds the missing value which is adjacent
+9. sine(double) -- > returns the sine
+10. cosine(double) -- > returns the cosine
+11. tangent(double) -- > returns the tangent
